@@ -1,5 +1,4 @@
 - Drinks sold - Girona
-
 SELECT 
     e.first_name AS employee_name, 
     COUNT(o.id_order) AS total_orders
