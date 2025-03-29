@@ -91,7 +91,7 @@ Tracks categories from the pizzas.
 
 - **Columns**:
   - id_category (Primary key): Unique auto-incremented identifier for each category.
-  - name: Enum field indicating whether the pizza is classic, special or the pizza of the day.
+  - name: Indicates whether the pizza is classic, special or the pizza of the day as a varchar.
 
 
 ### 9. `products` Table
@@ -117,13 +117,6 @@ Tracks products quantity from orders.
   - quantity: Number of units of the product ordered.
  
 
-### 11. `pizzas` Table
-Tracks pizza-related information.
-
-- **Columns**:
-  - id_pizza (Primary key): Unique auto-incremented identifier for each pizza.
-  - id_category (Foreign Key): Reference to the categories table.
-  - id_product (Foreign Key): Reference to the products table.
 
 
 
